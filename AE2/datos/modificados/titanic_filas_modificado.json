@@ -1,0 +1,2229 @@
+{
+  "features": [
+    {
+      "feature_idx": 0,
+      "name": "survived",
+      "type": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 1,
+      "name": "pclass",
+      "type": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 2,
+      "name": "sex",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 3,
+      "name": "age",
+      "type": {
+        "dtype": "float64",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 4,
+      "name": "sibsp",
+      "type": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 5,
+      "name": "parch",
+      "type": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 6,
+      "name": "fare",
+      "type": {
+        "dtype": "float64",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 7,
+      "name": "embarked",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 8,
+      "name": "class",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 9,
+      "name": "who",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 10,
+      "name": "adult_male",
+      "type": {
+        "dtype": "bool",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 11,
+      "name": "deck",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 12,
+      "name": "embark_town",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 13,
+      "name": "alive",
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 14,
+      "name": "alone",
+      "type": {
+        "dtype": "bool",
+        "_type": "Value"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "row_idx": 0,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 23.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 7.25,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 2,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": 26.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.925,
+        "embarked": "S",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 3,
+      "row": {
+        "survived": 1,
+        "pclass": 1,
+        "sex": "female",
+        "age": 35.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 53.1,
+        "embarked": "S",
+        "class": "First",
+        "who": "woman",
+        "adult_male": false,
+        "deck": "C",
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 4,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 35.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 8.05,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 5,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 8.4583,
+        "embarked": "Q",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Queenstown",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 6,
+      "row": {
+        "survived": 0,
+        "pclass": 1,
+        "sex": "male",
+        "age": 54.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 51.8625,
+        "embarked": "S",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": "E",
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 7,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 2.0,
+        "sibsp": 3,
+        "parch": 1,
+        "fare": 21.075,
+        "embarked": "S",
+        "class": "Third",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 8,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": 27.0,
+        "sibsp": 0,
+        "parch": 2,
+        "fare": 11.1333,
+        "embarked": "S",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 9,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "female",
+        "age": 14.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 30.0708,
+        "embarked": "C",
+        "class": "Second",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 10,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": 4.0,
+        "sibsp": 1,
+        "parch": 1,
+        "fare": 16.7,
+        "embarked": "S",
+        "class": "Third",
+        "who": "child",
+        "adult_male": false,
+        "deck": "G",
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 11,
+      "row": {
+        "survived": 1,
+        "pclass": 1,
+        "sex": "female",
+        "age": 58.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 26.55,
+        "embarked": "S",
+        "class": "First",
+        "who": "woman",
+        "adult_male": false,
+        "deck": "C",
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 12,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 20.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 8.05,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 13,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 39.0,
+        "sibsp": 1,
+        "parch": 5,
+        "fare": 31.275,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 14,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "female",
+        "age": 14.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.8542,
+        "embarked": "S",
+        "class": "Third",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 15,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "female",
+        "age": 55.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 16.0,
+        "embarked": "S",
+        "class": "Second",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 16,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 2.0,
+        "sibsp": 4,
+        "parch": 1,
+        "fare": 29.125,
+        "embarked": "Q",
+        "class": "Third",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Queenstown",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 17,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 13.0,
+        "embarked": "S",
+        "class": "Second",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 18,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "female",
+        "age": 31.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 18.0,
+        "embarked": "S",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 19,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.225,
+        "embarked": "C",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 20,
+      "row": {
+        "survived": 0,
+        "pclass": 2,
+        "sex": "male",
+        "age": 35.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 26.0,
+        "embarked": "S",
+        "class": "Second",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 21,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "male",
+        "age": 34.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 13.0,
+        "embarked": "S",
+        "class": "Second",
+        "who": "man",
+        "adult_male": true,
+        "deck": "D",
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 22,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": 15.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 8.0292,
+        "embarked": "Q",
+        "class": "Third",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Queenstown",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 23,
+      "row": {
+        "survived": 1,
+        "pclass": 1,
+        "sex": "male",
+        "age": 28.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 35.5,
+        "embarked": "S",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": "A",
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 24,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "female",
+        "age": 8.0,
+        "sibsp": 3,
+        "parch": 1,
+        "fare": 21.075,
+        "embarked": "S",
+        "class": "Third",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 25,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": 38.0,
+        "sibsp": 1,
+        "parch": 5,
+        "fare": 31.3875,
+        "embarked": "S",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 26,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.225,
+        "embarked": "C",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 27,
+      "row": {
+        "survived": 0,
+        "pclass": 1,
+        "sex": "male",
+        "age": 19.0,
+        "sibsp": 3,
+        "parch": 2,
+        "fare": 263.0,
+        "embarked": "S",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": "C",
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 28,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.8792,
+        "embarked": "Q",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Queenstown",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 29,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.8958,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 30,
+      "row": {
+        "survived": 0,
+        "pclass": 1,
+        "sex": "male",
+        "age": 40.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 27.7208,
+        "embarked": "C",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 31,
+      "row": {
+        "survived": 1,
+        "pclass": 1,
+        "sex": "female",
+        "age": null,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 146.5208,
+        "embarked": "C",
+        "class": "First",
+        "who": "woman",
+        "adult_male": false,
+        "deck": "B",
+        "embark_town": "Cherbourg",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 32,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.75,
+        "embarked": "Q",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Queenstown",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 33,
+      "row": {
+        "survived": 0,
+        "pclass": 2,
+        "sex": "male",
+        "age": 66.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 10.5,
+        "embarked": "S",
+        "class": "Second",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 34,
+      "row": {
+        "survived": 0,
+        "pclass": 1,
+        "sex": "male",
+        "age": 28.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 82.1708,
+        "embarked": "C",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 35,
+      "row": {
+        "survived": 0,
+        "pclass": 1,
+        "sex": "male",
+        "age": 42.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 52.0,
+        "embarked": "S",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 36,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.2292,
+        "embarked": "C",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 37,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 21.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 8.05,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 38,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "female",
+        "age": 18.0,
+        "sibsp": 2,
+        "parch": 0,
+        "fare": 18.0,
+        "embarked": "S",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 39,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": 14.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 11.2417,
+        "embarked": "C",
+        "class": "Third",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 40,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "female",
+        "age": 40.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 9.475,
+        "embarked": "S",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 41,
+      "row": {
+        "survived": 0,
+        "pclass": 2,
+        "sex": "female",
+        "age": 27.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 21.0,
+        "embarked": "S",
+        "class": "Second",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 42,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.8958,
+        "embarked": "C",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 43,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "female",
+        "age": 3.0,
+        "sibsp": 1,
+        "parch": 2,
+        "fare": 41.5792,
+        "embarked": "C",
+        "class": "Second",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 44,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": 19.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.8792,
+        "embarked": "Q",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Queenstown",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 45,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 8.05,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 46,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 15.5,
+        "embarked": "Q",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Queenstown",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 47,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.75,
+        "embarked": "Q",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Queenstown",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 48,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 2,
+        "parch": 0,
+        "fare": 21.6792,
+        "embarked": "C",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 49,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "female",
+        "age": 18.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 17.8,
+        "embarked": "S",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 50,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 7.0,
+        "sibsp": 4,
+        "parch": 1,
+        "fare": 39.6875,
+        "embarked": "S",
+        "class": "Third",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 51,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 21.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.8,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 52,
+      "row": {
+        "survived": 1,
+        "pclass": 1,
+        "sex": "female",
+        "age": 49.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 76.7292,
+        "embarked": "C",
+        "class": "First",
+        "who": "woman",
+        "adult_male": false,
+        "deck": "D",
+        "embark_town": "Cherbourg",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 53,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "female",
+        "age": 29.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 26.0,
+        "embarked": "S",
+        "class": "Second",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 54,
+      "row": {
+        "survived": 0,
+        "pclass": 1,
+        "sex": "male",
+        "age": 65.0,
+        "sibsp": 0,
+        "parch": 1,
+        "fare": 61.9792,
+        "embarked": "C",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": "B",
+        "embark_town": "Cherbourg",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 55,
+      "row": {
+        "survived": 1,
+        "pclass": 1,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 35.5,
+        "embarked": "S",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": "C",
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 56,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "female",
+        "age": 21.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 10.5,
+        "embarked": "S",
+        "class": "Second",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 57,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 28.5,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.2292,
+        "embarked": "C",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 58,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "female",
+        "age": 5.0,
+        "sibsp": 1,
+        "parch": 2,
+        "fare": 27.75,
+        "embarked": "S",
+        "class": "Second",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 59,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 11.0,
+        "sibsp": 5,
+        "parch": 2,
+        "fare": 46.9,
+        "embarked": "S",
+        "class": "Third",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 60,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 22.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.2292,
+        "embarked": "C",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 61,
+      "row": {
+        "survived": 1,
+        "pclass": 1,
+        "sex": "female",
+        "age": 38.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 80.0,
+        "embarked": null,
+        "class": "First",
+        "who": "woman",
+        "adult_male": false,
+        "deck": "B",
+        "embark_town": null,
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 62,
+      "row": {
+        "survived": 0,
+        "pclass": 1,
+        "sex": "male",
+        "age": 45.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 83.475,
+        "embarked": "S",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": "C",
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 63,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 4.0,
+        "sibsp": 3,
+        "parch": 2,
+        "fare": 27.9,
+        "embarked": "S",
+        "class": "Third",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 64,
+      "row": {
+        "survived": 0,
+        "pclass": 1,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 27.7208,
+        "embarked": "C",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 65,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 1,
+        "parch": 1,
+        "fare": 15.2458,
+        "embarked": "C",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 66,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "female",
+        "age": 29.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 10.5,
+        "embarked": "S",
+        "class": "Second",
+        "who": "woman",
+        "adult_male": false,
+        "deck": "F",
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 67,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 19.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 8.1583,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 68,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": 17.0,
+        "sibsp": 4,
+        "parch": 2,
+        "fare": 7.925,
+        "embarked": "S",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 69,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 26.0,
+        "sibsp": 2,
+        "parch": 0,
+        "fare": 8.6625,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 70,
+      "row": {
+        "survived": 0,
+        "pclass": 2,
+        "sex": "male",
+        "age": 32.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 10.5,
+        "embarked": "S",
+        "class": "Second",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 71,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "female",
+        "age": 16.0,
+        "sibsp": 5,
+        "parch": 2,
+        "fare": 46.9,
+        "embarked": "S",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 72,
+      "row": {
+        "survived": 0,
+        "pclass": 2,
+        "sex": "male",
+        "age": 21.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 73.5,
+        "embarked": "S",
+        "class": "Second",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 73,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 26.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 14.4542,
+        "embarked": "C",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Cherbourg",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 74,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "male",
+        "age": 32.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 56.4958,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 75,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 25.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.65,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": "F",
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 76,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.8958,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 77,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 8.05,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 78,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "male",
+        "age": 0.83,
+        "sibsp": 0,
+        "parch": 2,
+        "fare": 29.0,
+        "embarked": "S",
+        "class": "Second",
+        "who": "child",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 79,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": 30.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 12.475,
+        "embarked": "S",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 80,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 22.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 9.0,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 81,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "male",
+        "age": 29.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 9.5,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 82,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.7875,
+        "embarked": "Q",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Queenstown",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 83,
+      "row": {
+        "survived": 0,
+        "pclass": 1,
+        "sex": "male",
+        "age": 28.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 47.1,
+        "embarked": "S",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 84,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "female",
+        "age": 17.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 10.5,
+        "embarked": "S",
+        "class": "Second",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 85,
+      "row": {
+        "survived": 1,
+        "pclass": 3,
+        "sex": "female",
+        "age": 33.0,
+        "sibsp": 3,
+        "parch": 0,
+        "fare": 15.85,
+        "embarked": "S",
+        "class": "Third",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 86,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 16.0,
+        "sibsp": 1,
+        "parch": 3,
+        "fare": 34.375,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 87,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 8.05,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 88,
+      "row": {
+        "survived": 1,
+        "pclass": 1,
+        "sex": "female",
+        "age": 23.0,
+        "sibsp": 3,
+        "parch": 2,
+        "fare": 263.0,
+        "embarked": "S",
+        "class": "First",
+        "who": "woman",
+        "adult_male": false,
+        "deck": "C",
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 89,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 24.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 8.05,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 90,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 29.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 8.05,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 91,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 20.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.8542,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 92,
+      "row": {
+        "survived": 0,
+        "pclass": 1,
+        "sex": "male",
+        "age": 46.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 61.175,
+        "embarked": "S",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": "E",
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 93,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 26.0,
+        "sibsp": 1,
+        "parch": 2,
+        "fare": 20.575,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 94,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": 59.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 7.25,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 95,
+      "row": {
+        "survived": 0,
+        "pclass": 3,
+        "sex": "male",
+        "age": null,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 8.05,
+        "embarked": "S",
+        "class": "Third",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 96,
+      "row": {
+        "survived": 0,
+        "pclass": 1,
+        "sex": "male",
+        "age": 71.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 34.6542,
+        "embarked": "C",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": "A",
+        "embark_town": "Cherbourg",
+        "alive": "no",
+        "alone": true
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 97,
+      "row": {
+        "survived": 1,
+        "pclass": 1,
+        "sex": "male",
+        "age": 23.0,
+        "sibsp": 0,
+        "parch": 1,
+        "fare": 63.3583,
+        "embarked": "C",
+        "class": "First",
+        "who": "man",
+        "adult_male": true,
+        "deck": "D",
+        "embark_town": "Cherbourg",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 98,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "female",
+        "age": 34.0,
+        "sibsp": 0,
+        "parch": 1,
+        "fare": 23.0,
+        "embarked": "S",
+        "class": "Second",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 99,
+      "row": {
+        "survived": 0,
+        "pclass": 2,
+        "sex": "male",
+        "age": 34.0,
+        "sibsp": 1,
+        "parch": 0,
+        "fare": 26.0,
+        "embarked": "S",
+        "class": "Second",
+        "who": "man",
+        "adult_male": true,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "no",
+        "alone": false
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 100,
+      "row": {
+        "survived": 1,
+        "pclass": 2,
+        "sex": "female",
+        "age": 30.0,
+        "sibsp": 0,
+        "parch": 0,
+        "fare": 15.5,
+        "embarked": "S",
+        "class": "Second",
+        "who": "woman",
+        "adult_male": false,
+        "deck": null,
+        "embark_town": "Southampton",
+        "alive": "yes",
+        "alone": true
+      },
+      "truncated_cells": []
+    }
+  ],
+  "num_rows_total": 891,
+  "num_rows_per_page": 100,
+  "partial": false
+}

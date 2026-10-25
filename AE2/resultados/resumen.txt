@@ -1,0 +1,31 @@
+RESUMEN AE2 - MANEJO DE ARCHIVOS CSV, JSON Y TXT
+Generado: 2026-10-25 17:41:33
+Clase generadora: GeneradorResumenTXT (metodo generar)
+
+== CSV ==
+URL de origen: https://huggingface.co/datasets/BIT/titanic-dataset/resolve/main/titanic.csv
+Archivo importado: datos/originales/titanic.csv
+Clase usada: ManejadorCSV
+Metodos usados: importar, actualizar_valor, agregar_registro, eliminar_registro, guardar
+Registros importados: 891
+Modificaciones realizadas:
+  - actualizar_valor: fila 0, columna 'age': 22.0 -> 23.0
+  - agregar_registro: nueva fila ['1', '2', 'female', '30.0', '0', '0', '15.5', 'S', 'Second', 'woman', 'False', '', 'Southampton', 'yes', 'True']
+  - eliminar_registro: fila 1 eliminada ['1', '1', 'female', '38.0', '1', '0', '71.2833', 'C', 'First', 'woman', 'False', 'C', 'Cherbourg', 'yes', 'False']
+Registros finales: 891
+Archivo nuevo guardado: datos/modificados/titanic_modificado.csv
+
+== JSON ==
+URL de origen: https://datasets-server.huggingface.co/rows?dataset=BIT%2Ftitanic-dataset&config=default&split=train&offset=0&length=100
+Archivo importado: datos/originales/titanic_filas.json
+Clase usada: ManejadorJSON
+Metodos usados: importar, actualizar_valor, agregar_registro, eliminar_registro, guardar
+Registros importados: 100
+Modificaciones realizadas:
+  - actualizar_valor: registro 0, campo 'age': 22.0 -> 23.0
+  - agregar_registro: nuevo registro row_idx=100
+  - eliminar_registro: registro 1 eliminado (row_idx=1)
+Registros finales: 100
+Archivo nuevo guardado: datos/modificados/titanic_filas_modificado.json
+
+Total de registros importados (CSV + JSON): 991
